@@ -2,7 +2,7 @@
 # z(n+1) = z(n+1)^2 + c
 # OR z = z*z + c
 
-from Tkinter import *
+from tkinter import *
 from datetime import datetime
 
 mwidth = 800
@@ -36,6 +36,6 @@ for x in range(0,mwidth):
             
 
 canv.create_image(0, 0, image=pic, anchor=NW)
-print datetime.now() - mtime
+print (datetime.now() - mtime)
 t.mainloop()
 
